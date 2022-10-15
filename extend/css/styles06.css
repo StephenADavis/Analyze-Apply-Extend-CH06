@@ -1,7 +1,7 @@
 /*
-Student:
-Date:
-File Name: 
+Student: Stepeh Davis
+Date: October 15, 2022
+File Name: styles06.css
 */
 
 /* CSS Reset */
@@ -39,6 +39,9 @@ main {
 }
 
 /* Gradient style rules */
+.gradient1 {
+  background: linear-gradient(to right, #67afcb, #1a3e4c 25%);
+}
 
 
 /* Style rule for footer */
@@ -51,19 +54,19 @@ footer {
 
 /* Media Query for Tablet Viewports */
 @media screen and (min-width: 481px) {
-    
+
     .columns {
         width: 50%;
         float: left;
     }
-    
+
 }
 
 /* Media Query for Desktop Viewports */
 @media screen and (min-width: 1200px) {
-    
+
     .columns {
         width: 25%;
     }
-    
+
 }
